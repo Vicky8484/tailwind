@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "prettier": "^3.9.9",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4.1.0"
+  },
+  "scripts": {
+    "build:css": "tailwindcss -i ./style.css -o ./output.css",
+    "watch:css": "tailwindcss -i ./style.css -o ./output.css --watch",
+    "format": "prettier --write index.html style.css package.json",
+    "format:check": "prettier --check index.html style.css package.json"
+  }
+}
