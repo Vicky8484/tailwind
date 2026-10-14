@@ -360,6 +360,9 @@
   .text-black {
     color: var(--color-black);
   }
+  .text-blue-300 {
+    color: var(--color-blue-300);
+  }
   .text-blue-400 {
     color: var(--color-blue-400);
   }
